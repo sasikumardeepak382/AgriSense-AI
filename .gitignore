@@ -1,0 +1,20 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+.streamlit/
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+
+# Training logs
+lightning_logs/
+
+# Old backup files
+backend/app/forecast_backup.py
+backend/app/forecast_before_shap.py
